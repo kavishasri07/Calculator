@@ -1,10 +1,18 @@
-const display= document.getElementById("input");
-function appendOperator(input) {
-    display.value += input;
+const display= document.getElementById("display");
+
+function appendToDisplay(input) {
+    display.value+=input;
 }
+
 function clearDisplay() {
-
+    display.value= "";
 }
-function calculate() {
 
+function calculate() {
+    try {
+        display.value= eval(display.value);
+    }
+    catch(error) {
+        display.value= "Error";
+    }
 }
