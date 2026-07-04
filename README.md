@@ -14,9 +14,3 @@ A simple, responsive calculator built using **HTML**, **CSS**, and vanilla **Jav
 
 ## Demo
 https://kavishasri07.github.io/Calculator/
-
-## Project Structure
-Calculator/
-├── index.html   # Markup and calculator layout
-├── style.css    # Styling
-└── script.js    # Calculator logic
