@@ -13,4 +13,4 @@ A simple, responsive calculator built using **HTML**, **CSS**, and vanilla **Jav
 - JavaScript (ES6)
 
 ## Demo
-https://kavishasri07.github.io/Calculator/
+https://basiccalculator-fawn.vercel.app/
